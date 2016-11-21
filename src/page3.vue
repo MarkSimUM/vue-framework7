@@ -3,7 +3,7 @@
     f7-navbar(back-link='Back', title='Page 3', sliding='')
     f7-block This is page 3.
       br
-      | Data-binding {{ mydata }}
+      | Data-binding: {{ mydata }}
       p.red This text is 
        span red
       p.cursive This is 
@@ -15,7 +15,7 @@ export default {
   name: 'page3',
   data () {
     return {
-      mydata: 'this is mydata'
+      mydata: ' this is data from the variable mydata'
     }
   }
 }
