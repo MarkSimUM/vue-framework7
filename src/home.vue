@@ -8,6 +8,7 @@
             f7-nav-center(sliding='') Home
             f7-nav-right
                        
+                       
             
           f7-pages#pages
             f7-page.navbar-fixed
